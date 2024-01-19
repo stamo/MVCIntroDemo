@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    ViewBag.Name = "Stamo";
+    string keyToShow = "Title";
+}
+
+<h2>Home Page</h2>
+<h3>@ViewBag.Message</h3>
+<h4>@ViewBag.Title</h4>
+
+<p>This is the Home page</p>
+
+<p>@ViewData[keyToShow]</p>
